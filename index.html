@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>데일리보드24</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="background">
+    <div class="shape circle"></div>
+    <div class="shape triangle"></div>
+    <div class="shape square"></div>
+    <div class="shape pentagon"></div>
+    <div class="shape circle"></div>
+    <div class="shape triangle"></div>
+    <div class="shape square"></div>
+    <div class="shape pentagon"></div>
+  </div>
+  <div class="container">
+    <div id="login-form">
+      <h1 style="text-align: left; margin-bottom: 0px; font-size: 32px;">안녕</h1>
+      <h2 style="text-align: left; font-size: 32px;">하세요.</h2>
+      <p>데일리보드24에 오신 것을 환영합니다.</p>
+      <input type="email" placeholder="이메일" required>
+      <input type="password" placeholder="비밀번호" required>
+      <button class="login-btn">로그인</button>
+      <div class="reset-password">
+        <a href="#" class="reset-link">비밀번호를 잊으셨나요?</a>
+      </div>
+      <p class="or-divider">또는</p>
+      <button class="google-login-btn">
+        Google로 로그인
+      </button>
+      <p class="signup-text">계정이 없으신가요? <a href="#" class="signup-link">회원가입</a></p>
+    </div>
+    <div id="signup-form" style="display: none;">
+      <h1 style="text-align: left; margin-bottom: 10px; font-size: 32px;">회원가입</h1>
+      <p>데일리보드24 계정을 만들어보세요.</p>
+      <input type="text" placeholder="이름" required>
+      <input type="email" placeholder="이메일" required>
+      <input type="password" placeholder="비밀번호" required>
+      <button class="signup-btn">가입하기</button>
+      <p class="login-text">이미 계정이 있으신가요? <a href="#" class="login-link">로그인</a></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
